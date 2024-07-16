@@ -1,0 +1,20 @@
+.nav-menu{
+    display: flex;
+    justify-content: space-around;
+    background-color: #995052;
+    padding: 30px 20px;
+}
+
+.nav-menu a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* .contenedor-flex{
+    background-color: rgb(7, 143, 143);
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 80%;
+    margin: auto;
+} */

@@ -1,1 +1,40 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    margin: 0;
+    background-color: #274862;
+    color: white;
+}
+
+.titulo-principal{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.titulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.titulo h2{
+    margin-bottom:0;
+}
+
+.descripcion{
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.ingredientes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img{
+    margin-top: 25px;
+}
+

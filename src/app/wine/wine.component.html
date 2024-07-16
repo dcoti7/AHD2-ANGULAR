@@ -1,0 +1,25 @@
+
+<section>
+    @for(Wines of wines; track $index){
+        <div class="titulo">
+            <h2>{{Wines.strDrink}}</h2>
+            <h3>Categoria: {{Wines.strCategory}}</h3>
+        </div>
+        
+        <div class="descripcion">
+            <p><span>Instrucciones: </span>{{Wines.strInstructions}}</p>
+        </div>
+        <div class="ingredientes">
+            <h4>Ingredientes</h4>
+            <div class="lista">
+                <li>{{Wines.strIngredient1}}</li>
+                <li>{{Wines.strIngredient2}}</li>
+                <li>{{Wines.strIngredient4}}</li>
+            </div>
+            <div class="img">
+                <img [src]="Wines.strDrinkThumb" alt="">
+            </div>
+        </div>
+        <hr>
+    }
+</section>
